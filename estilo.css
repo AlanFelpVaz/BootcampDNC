@@ -148,3 +148,89 @@
             font-size: 32px;
             cursor: pointer;
         }
+
+        /* Footer */
+        
+        footer {
+            width: 100%;
+            background-color: #0C70F2;
+        }
+
+        footer .linha1 {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        footer ul {
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+            font-size: 20px;
+        }
+
+        footer nav {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 380px;
+            margin-bottom: 15px;
+        }
+
+        footer h5 {
+            text-align: center;
+            color: white;
+            font-weight: 800;
+            font-size: 21px;
+            font-family: var(--fontePadrao);
+            background-color: var(--pretoDnc);
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        footer ul li {
+            text-align: center;
+            text-align: white;
+            font-weight: 600;
+            font-family: var(--fontePadrao);
+            margin: 25px 0px 25px 0px;
+        }
+
+        footer ul li a{
+            color: white;
+            text-decoration: none;
+        }
+        
+        footer .endereco {
+            font-weight: 600;
+            font-size: 21px;
+            font-family: var(--fontePadrao);
+            color: white;
+            text-align: center;
+            width: 30%;
+        }
+
+        footer ul li a:hover {
+            color: var(--cinzaHover);
+        }
+
+        footer .linha2 {
+            height: 35px;
+            display: flex;
+            justify-content: center;
+            margin:0px;
+            padding: 10px;
+        }
+
+        footer .linha2 a {
+            font-family: var(--fontePadrao);
+            font-size: 21px;
+            font-weight: 600;
+            color: white;
+            padding: 5px;
+            text-decoration: none;
+        }
+        footer .linha2 a:first-child {
+            border-right: 4px solid white;
+        }
