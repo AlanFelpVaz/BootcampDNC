@@ -181,7 +181,7 @@
             text-align: center;
             color: white;
             font-weight: 800;
-            font-size: 21px;
+            font-size: 18px;
             font-family: var(--fontePadrao);
             background-color: var(--pretoDnc);
             border-radius: 10px;
@@ -204,11 +204,11 @@
         
         footer .endereco {
             font-weight: 600;
-            font-size: 21px;
+            font-size: 18px;
             font-family: var(--fontePadrao);
             color: white;
             text-align: center;
-            width: 30%;
+            width: 25%;
         }
 
         footer ul li a:hover {
@@ -225,7 +225,7 @@
 
         footer .linha2 a {
             font-family: var(--fontePadrao);
-            font-size: 21px;
+            font-size: 18px;
             font-weight: 600;
             color: white;
             padding: 5px;
@@ -234,3 +234,49 @@
         footer .linha2 a:first-child {
             border-right: 4px solid white;
         }
+@media only screen and (max-width: 600px) {
+
+    /* Menu */
+    #principal {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        
+    }
+    #menu {
+        flex-direction: column;
+        margin: 0px;
+        width: 100%
+    }
+    #menu a {
+        display: flex;
+        align-items: center;
+        height: 50px;
+    }
+
+    #principal button{
+        width: 100%;
+        margin: 0px;
+    }
+
+    /* section */
+
+    section h1 {
+        font-size: 45px;
+    }
+
+    section h2 {
+        font-size: 29px;
+        padding: 0px 15px 0px 15px;
+    }
+
+    form {
+        width: 95%;
+        font-size: 20px;
+    }
+
+    .checkboxItens label {
+        font-size: 17px;
+
+    }
+ }
